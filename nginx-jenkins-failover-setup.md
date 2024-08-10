@@ -17,6 +17,7 @@ sudo dnf install nginx -y
 Start and Enable NGINX:
 Start the NGINX service and enable it to start on boot:
 sudo systemctl start nginx
+
 sudo systemctl enable nginx
 
 # Step 3: Configure NGINX for Jenkins Failover
