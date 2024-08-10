@@ -76,7 +76,9 @@ Allow HTTP/HTTPS Traffic:
 Ensure that the NGINX server can receive traffic on HTTP (and optionally HTTPS) ports:
 
 sudo firewall-cmd --permanent --add-service=http
+
 sudo firewall-cmd --permanent --add-service=https
+
 sudo firewall-cmd --reload
 
 Test Connectivity:
