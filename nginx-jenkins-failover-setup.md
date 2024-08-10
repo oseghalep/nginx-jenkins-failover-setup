@@ -74,7 +74,7 @@ sudo systemctl restart nginx
 # Step 5: Adjust Firewall Rules on NGINX Server
 Allow HTTP/HTTPS Traffic:
 Ensure that the NGINX server can receive traffic on HTTP (and optionally HTTPS) ports:
-bash
+
 sudo firewall-cmd --permanent --add-service=http
 sudo firewall-cmd --permanent --add-service=https
 sudo firewall-cmd --reload
